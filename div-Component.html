@@ -1,0 +1,21 @@
+<!-- Imports polymer -->
+<link rel="import" href="../polymer/polymer.html">
+<!-- Defines element markup -->
+<dom-module id="div-Component">
+    <template>
+        <p>Hello {{value}}</p>
+    </template>
+</dom-module>
+
+<!-- Registers custom element -->
+<script>
+Polymer({
+    is: 'div-Component',
+    properties: {
+        value: {
+            type: String,
+            value: "hola"
+        }
+    }
+});
+</script>
