@@ -1,12 +1,12 @@
 {
-  "name": "inputComponent-polymer",
+  "name": "divComponent-polymer",
   "version": "1.0.0",
   "description": "Web Component example using Polymer",
   "authors": [
     "WebComponents.org"
   ],
   "license": "MIT",
-  "main": "inputComponent.html",
+  "main": "div-Component.html",
   "keywords": [
     "polymer",
     "web-components"
